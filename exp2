@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+ <meta charset="utf-8">
+ <title> Heading ELements </title>
+</head>
+<body>
+ <h1> this is the main headings</h1>
+ <h2> sub</h2>
+ <h3> sub</h3>
+ <h4> sub</h4>
+ <h5> sub</h5>
+ <h6> sub</h6>
+ </body>
+ </html>
