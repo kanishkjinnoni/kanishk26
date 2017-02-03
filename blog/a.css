@@ -10,10 +10,11 @@ h1{
 ul{
     color: blue;
     text-align: center;
+    font-size: 40;
     font-family: verdana;
 }
 p{
-    color:yellow;
+    color: black;
     text-align: center;
     font-family: verdana;
 }
