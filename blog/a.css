@@ -1,6 +1,6 @@
 <style>
 body{
- background-color: lightblue;
+ background-color: lightgreen;
 }
 h1{
     color: red;
@@ -10,7 +10,7 @@ h1{
 ul{
     color: blue;
     text-align: center;
-    font-size: 40;
+    font-size: 100%;
     font-family: verdana;
 }
 p{
