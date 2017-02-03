@@ -1,10 +1,15 @@
 
 <style>
-body{}
+body{
+    text-align: center;   
+background-color: lightblue;
+}
 h3{
+       text-align: center;
 color: lightblue;
 }
 p{
+       text-align: center;
    color: red;
 }
 </style>
