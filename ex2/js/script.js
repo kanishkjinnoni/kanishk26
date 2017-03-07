@@ -1,3 +1,4 @@
+var cnt=0;
 function sayHello () {
   var name =
    document.getElementById("name").value;
@@ -16,10 +17,22 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
+    if(cnt==0)
+    {
     title += " & Lovin' it!";
+    cnt++;
+    }
     document
         .querySelector("h1")
         .textContent = title;
   }
-document.getElementById("name").style.clear = "left";
-}
+else
+{
+  cnt=0;
+  var title = " Lets Chat"
+   document
+        .querySelector("h1")
+        .textContent=title;
+
+
+  }
