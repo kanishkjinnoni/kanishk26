@@ -21,4 +21,5 @@ function sayHello () {
         .querySelector("h1")
         .textContent = title;
   }
+document.getElementById("name").style.clear = "left";
 }
