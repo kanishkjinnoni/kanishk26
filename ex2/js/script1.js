@@ -1,3 +1,4 @@
+var cnt=0;
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
@@ -17,11 +18,23 @@ document.addEventListener("DOMContentLoaded",
           document
             .querySelector("#title")
             .textContent;
+        if(cnt==0)
+        {
         title += " & Lovin' it!";
+        cnt++;
+        }
         document
             .querySelector("h1")
             .textContent = title;
-      }
+         }
+    else{
+    cnt=0;
+      var title ="Let's Chat"
+       document
+            .querySelector("h1")
+            .textContent = title;
+      
+    }
     }
 
     // Unobtrusive event binding
