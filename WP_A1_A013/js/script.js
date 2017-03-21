@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",
       $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
-     message += " scored";
+     var message += " scored";
     
      message += res.wp;
      message += " in wp";
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded",
       $ajaxUtils
           .sendGetRequest("data/namep.json", 
             function (resp) {
-     message += " scored";
+   var  message += " scored";
     
      message += resp.wp;
      message += " in wp";
