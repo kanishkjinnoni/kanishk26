@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-        if(firstname=='kanishk')
-        {
       $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
@@ -19,7 +17,7 @@ document.addEventListener("DOMContentLoaded",
                 document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
             });
-                          
+/*                          
                           
         if(firstname=='prakhar')
         {
@@ -37,7 +35,7 @@ document.addEventListener("DOMContentLoaded",
             });
                           
           
-           
+  */         
            
       });
   }
