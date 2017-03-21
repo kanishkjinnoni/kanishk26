@@ -36,18 +36,7 @@ document.addEventListener("DOMContentLoaded",
                 .innerHTML = "<h2>" + message + "</h2>";
             });
                           
-          /* var message = 
-                res.firstName + " " + res.lastName
-              if (res.likesChineseFood) {
-                message += " likes Chinese food";
-              }
-              else {
-                message += " doesn't like Chinese food";
-              }
-              message += " and uses ";
-              message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
-*/
+          
            
            
       });
