@@ -10,9 +10,8 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
-              var message = 
-                res.number;
-             var message = res.name;
+              var message = res.number;
+             message = res.name;
           
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
