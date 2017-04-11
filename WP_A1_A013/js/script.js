@@ -12,9 +12,8 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("data/name.json", 
             function (res) {
               var message = 
-                res.firstName;
-              message = res.wp;
-              message = res.maths;
+                res.number;
+              message = res.name;
           
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
