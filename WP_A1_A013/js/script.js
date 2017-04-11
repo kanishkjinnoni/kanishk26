@@ -1,4 +1,3 @@
-
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
@@ -13,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
             function (res) {
               var message = 
                 res.number;
-              message = res.name;
+             var message = res.name;
           
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
